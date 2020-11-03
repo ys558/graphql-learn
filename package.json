@@ -1,0 +1,21 @@
+{
+  "name": "graphql-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "hello": "nodemon 01helloworld.js",
+    "devStart2": "nodemon 02base.js",
+    "devStart3": "nodemon 03listQuery.js",
+    "devStart4": "nodemon 04singleQuery.js",
+    "devStart5": "nodemon 05mutationType.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.4.0"
+  }
+}
